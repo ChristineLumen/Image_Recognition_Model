@@ -14,7 +14,8 @@ The dataset used for model training was created by the author. It consists of 5 
   
 ## Deep Learning Model
 ### Building Model
-The model 
+The model was built using the `tensorflow` library and its high-level `tf.keras` API. The dataset was loaded using `tf.keras.utils.image_dataset_from_directory`- it loads images from directories and assigns labels based on the folder names. In the next step, I used the `sequential` class, which was helpful for building my simple, linear model. It allowed me to add layers one by one and train the model on images from start to finish.
+
 ### Measure Model Accuracy
 
 
