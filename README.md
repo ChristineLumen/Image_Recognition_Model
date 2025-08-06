@@ -20,6 +20,5 @@ The model was built using the `tensorflow` library and its high-level `tf.keras`
 I visualized the model’s performance by plotting training and validation accuracy and loss across epochs. 
 <img width="626" height="552" alt="Screenshot 2025-08-06 at 2 05 44 PM" src="https://github.com/user-attachments/assets/31da9071-9cb3-4fd6-b4d8-f6baeee20bbd" />
 
-
 ### Results  
-
+Based on the graph, it can be concluded that my model is overfitting. It learned the training data too well, but it's not generalizing to unseen validation data. In other words, the model is minimizing training loss, but at the cost of higher error on the validation data set. So, there should be more training data (more images per class with  different angles, lighting conditions, etc.) so the model can be trained better**.** Another step is to apply  a regularization technique, such as dropout layers , which encourages the network to learn independent features. That is how the model can be more robust and better at generalizing to new, unseen data.
