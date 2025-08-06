@@ -14,6 +14,7 @@ The dataset used for model training was created by the author. It consists of 5 
   
 ## Deep Learning Model
 ### Building Model
+The model 
 ### Measure Model Accuracy
 
 
