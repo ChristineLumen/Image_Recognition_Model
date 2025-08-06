@@ -6,7 +6,8 @@ In this project, I trained a convolutional neural network (CNN) to classify vari
 - _Jupyter Notebook_ – used to train, test, and build the model
 - _Visual Studio Code (VSC)_ – used to test the model on a local server
   
-###   Steps
+### Steps
+
 
 ###   Results  
 ###
