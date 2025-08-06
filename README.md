@@ -7,8 +7,10 @@ The dataset used for model training was created by the author. It consists of 5 
 
 ### Tools
 * Jupyter Notebook
-   * used to train, test, and build the model
-* _Visual Studio Code (VSC)_ – used to test the model on a local server
+   * tensorflow - used to train, test, and build the model
+   * tf.keras -  define and compile the model
+   * model.save - saving trained model in .keras format
+* _Visual Studio Code (VSC)_ – test the model on a local server
   
 ### Steps
 
