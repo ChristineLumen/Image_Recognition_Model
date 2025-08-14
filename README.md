@@ -5,8 +5,8 @@ In this project, I trained a convolutional neural network (CNN) to classify vari
 ### Data Source
 The dataset used for model training was created by the author. It consists of 5 currency types(5 classes), each of one has ~100 images for model training, ~10 images for model testing and validation.   
 
-### Tools
-* Jupyter Notebook
+### Tools  
+* Jupyter Notebook  
    * tensorflow - used to train, test, and build the model
    * tf.keras -  define and compile the model
    * model.save - saving trained model in .keras format
